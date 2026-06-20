@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Batalla de Talentos 2026</title>
+  <meta name="description" content="Evento artístico y cultural estudiantil — arte, danza, música, literatura, pintura y dibujo." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- PROGRESS BAR -->
+<div id="progress-bar"></div>
+
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<nav id="navbar">
+  <div class="nav-brand">
+    <span class="title">Batalla de Talentos</span>
+    <span class="subtitle">2026</span>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#hero"       data-i18n="navInicio">Inicio</a></li>
+    <li><a href="#apertura"   data-i18n="navApertura">Apertura</a></li>
+    <li><a href="#danza"      data-i18n="navDanza">Danza</a></li>
+    <li><a href="#literatura" data-i18n="navLiteratura">Literatura</a></li>
+    <li><a href="#pintura"    data-i18n="navPintura">Pintura</a></li>
+    <li><a href="#musica"     data-i18n="navMusica">Música</a></li>
+    <li><a href="#dibujo"     data-i18n="navDibujo">Dibujo</a></li>
+    <li><a href="#premiacion" data-i18n="navPremiacion">Premiación</a></li>
+    <li><a href="#galeria"    data-i18n="navGaleria">Galería</a></li>
+    <li><a href="glossary.html" data-i18n="navGlosario">Glosario</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <div class="lang-toggle">
+      <button class="lang-btn active" data-lang="es">ES</button>
+      <button class="lang-btn"        data-lang="en">EN</button>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#hero"       data-i18n="navInicio">Inicio</a>
+  <a href="#apertura"   data-i18n="navApertura">Apertura</a>
+  <a href="#danza"      data-i18n="navDanza">Danza</a>
+  <a href="#literatura" data-i18n="navLiteratura">Literatura</a>
+  <a href="#pintura"    data-i18n="navPintura">Pintura</a>
+  <a href="#musica"     data-i18n="navMusica">Música</a>
+  <a href="#dibujo"     data-i18n="navDibujo">Dibujo</a>
+  <a href="#premiacion" data-i18n="navPremiacion">Premiación</a>
+  <a href="#galeria"    data-i18n="navGaleria">Galería</a>
+  <a href="glossary.html" data-i18n="navGlosario">Glosario</a>
+  <div class="mobile-lang">
+    <button class="lang-btn active" data-lang="es">ES</button>
+    <button class="lang-btn"        data-lang="en">EN</button>
+  </div>
+</div>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content" data-reveal>
+    <div class="hero-eyebrow" data-i18n="heroEyebrow">Evento Artístico &amp; Cultural · 2026</div>
+    <h1 class="hero-title" data-i18n="heroTitle">Batalla de Talentos 2026</h1>
+    <p class="hero-subtitle" data-i18n="heroSubtitle">Celebrando el talento, la creatividad y la pasión artística</p>
+    <p class="hero-text" data-i18n="heroText">Bienvenidos a la Batalla de Talentos 2026, un espacio donde el arte, la creatividad y el esfuerzo de los estudiantes se convierten en protagonistas. Este evento reúne diversas expresiones artísticas que reflejan el talento y la dedicación de nuestra comunidad educativa.</p>
+    <div class="hero-icons">
+      <span>🎭</span><span>🎨</span><span>🎵</span><span>📖</span><span>✏️</span>
+    </div>
+    <a href="#apertura" class="btn btn-gold" data-i18n="heroBtn">Explorar Evento</a>
+  </div>
+  <div class="scroll-indicator">
+    <div class="scroll-mouse"><div class="scroll-dot"></div></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     APERTURA
+     ============================================================ -->
+<section id="apertura">
+  <div class="container">
+    <div class="apertura-grid">
+      <div class="apertura-photos" data-reveal="left">
+        <div class="apertura-photo" data-lightbox="img/AP1.jpeg">
+          <img src="img/AP1.jpeg" alt="Ceremonia de apertura - vista del auditorio" loading="lazy" />
+        </div>
+        <div class="apertura-photo" data-lightbox="img/AP2.jpeg">
+          <img src="img/AP2.jpeg" alt="Ceremonia de apertura - presentación inicial" loading="lazy" />
+        </div>
+      </div>
+      <div class="apertura-text" data-reveal="right">
+        <p class="eyebrow" data-i18n="aperEyebrow">Ceremonia</p>
+        <h2 data-i18n="aperTitle">Apertura</h2>
+        <div class="gold-rule left"></div>
+        <p data-i18n="aperText">La Batalla de Talentos 2026 inició con una emotiva ceremonia de apertura que reunió a estudiantes, docentes y asistentes en un ambiente lleno de entusiasmo y expectativa. Este momento marcó el comienzo de una jornada dedicada al arte, la cultura y la creatividad.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     DANZA
+     ============================================================ -->
+<section id="danza">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <p class="eyebrow" data-i18n="danzaEyebrow">Categoría</p>
+      <h2 data-i18n="danzaTitle">Danza</h2>
+      <div class="gold-rule"></div>
+      <p class="danza-desc" data-i18n="danzaDesc">Las presentaciones de danza destacaron por su energía, coordinación y expresión corporal. Cada actuación permitió apreciar el esfuerzo y la dedicación de los participantes, brindando un espectáculo lleno de ritmo y emoción.</p>
+    </div>
+    <div class="danza-cards">
+      <!-- Card 1 — Video -->
+      <div class="danza-card" data-reveal="left">
+        <div class="danza-card-media">
+          <video src="img/DZ1.mp4" muted loop playsinline
+                 onmouseenter="this.play()" onmouseleave="this.pause();this.currentTime=0;"
+                 poster="img/DZ1_poster.jpg"></video>
+          <div class="danza-play-overlay"><div class="play-icon">▶</div></div>
+        </div>
+        <div class="danza-card-body">
+          <h3 data-i18n="danzaCard1">Primera Presentación</h3>
+          <p>🎵 Ritmo · Expresión · Emoción</p>
+        </div>
+      </div>
+      <!-- Card 2 — Video -->
+      <div class="danza-card" data-reveal="right">
+        <div class="danza-card-media">
+          <video src="img/DZ2.mp4" muted loop playsinline
+                 onmouseenter="this.play()" onmouseleave="this.pause();this.currentTime=0;"
+                 poster="img/DZ2_poster.jpg"></video>
+          <div class="danza-play-overlay"><div class="play-icon">▶</div></div>
+        </div>
+        <div class="danza-card-body">
+          <h3 data-i18n="danzaCard2">Segunda Presentación</h3>
+          <p>💃 Coordinación · Talento · Pasión</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     LITERATURA
+     ============================================================ -->
+<section id="literatura">
+  <div class="container">
+    <div class="literatura-layout">
+      <div class="literatura-photo-stack" data-reveal="left">
+        <div class="literatura-photo" data-lightbox="img/LT1.jpeg" style="cursor:pointer;">
+          <img src="img/LT1.jpeg" alt="Presentación de literatura" loading="lazy" />
+        </div>
+        <div class="literatura-photo literatura-photo-sm" data-lightbox="img/LT2.jpeg" style="cursor:pointer;">
+          <img src="img/LT2.jpeg" alt="Exhibición de obras literarias" loading="lazy" />
+        </div>
+      </div>
+      <div class="literatura-content" data-reveal="right">
+        <p class="eyebrow" data-i18n="litEyebrow">Categoría</p>
+        <h2 data-i18n="litTitle">Literatura</h2>
+        <div class="gold-rule left"></div>
+        <p data-i18n="litText">La sección de literatura permitió compartir poemas, relatos y reflexiones que demostraron la imaginación y sensibilidad artística de los estudiantes. Cada obra transmitió emociones y mensajes significativos al público.</p>
+        <div class="quote-block">
+          <p data-i18n="litQuote">"Las palabras son el pincel con el que el alma pinta sus sueños."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PINTURA Y FOTOGRAFÍA
+     ============================================================ -->
+<section id="pintura">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <p class="eyebrow" data-i18n="pintEyebrow">Categoría</p>
+      <h2 data-i18n="pintTitle">Pintura &amp; Fotografía</h2>
+      <div class="gold-rule"></div>
+      <p class="pintura-desc" data-i18n="pintDesc">Las obras de pintura y fotografía exhibieron diferentes perspectivas del mundo a través del arte visual. Los trabajos reflejaron creatividad, observación y una gran capacidad para transmitir emociones mediante imágenes.</p>
+    </div>
+    <div class="pintura-single" data-reveal>
+      <div class="mosaic-item pintura-feature" data-lightbox="img/PT1.jpeg">
+        <img src="img/PT1.jpeg" alt="Exhibición de pintura y arte visual" loading="lazy" />
+        <div class="mosaic-overlay"><span>🔍 Ver</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     MÚSICA
+     ============================================================ -->
+<section id="musica">
+  <div class="container">
+    <div class="musica-layout">
+      <div class="musica-content" data-reveal="left">
+        <div class="music-note">🎵</div>
+        <p class="eyebrow" data-i18n="musEyebrow">Categoría</p>
+        <h2 data-i18n="musTitle">Música</h2>
+        <div class="gold-rule left"></div>
+        <p data-i18n="musText">La música ocupó un lugar especial durante el evento, ofreciendo interpretaciones llenas de emoción, talento y pasión. Cada presentación permitió disfrutar de diferentes expresiones musicales que cautivaron a los asistentes.</p>
+      </div>
+      <div class="musica-photo-stack" data-reveal="right">
+        <div class="musica-photo" data-lightbox="img/MS1.jpeg" style="cursor:pointer;">
+          <img src="img/MS1.jpeg" alt="Presentación musical" loading="lazy" />
+        </div>
+        <div class="musica-photo musica-photo-sm" data-lightbox="img/MS2.jpeg" style="cursor:pointer;">
+          <img src="img/MS2.jpeg" alt="Interpretación musical en el evento" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     DIBUJO
+     ============================================================ -->
+<section id="dibujo">
+  <div class="container">
+    <div class="dibujo-layout">
+      <div class="dibujo-photo" data-reveal="left"
+           data-lightbox="img/DJ1.jpeg" style="cursor:pointer;">
+        <img src="img/DJ1.jpeg" alt="Dibujos expuestos en el evento" loading="lazy" />
+      </div>
+      <div data-reveal="right">
+        <p class="eyebrow" data-i18n="dibEyebrow">Categoría</p>
+        <h2 data-i18n="dibTitle">Dibujo</h2>
+        <div class="gold-rule left"></div>
+        <p data-i18n="dibText">Los dibujos expuestos destacaron por su originalidad, creatividad y nivel de detalle. Cada obra representó el talento artístico y la capacidad de expresión de los estudiantes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PREMIACIÓN
+     ============================================================ -->
+<section id="premiacion">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <p class="eyebrow" data-i18n="premEyebrow">Reconocimientos</p>
+      <h2 data-i18n="premTitle">Ceremonia de Premiación</h2>
+      <div class="gold-rule"></div>
+      <p class="premiacion-desc" data-i18n="premDesc">La ceremonia de premiación reconoció el esfuerzo, la dedicación y el compromiso demostrado por los participantes durante la Batalla de Talentos 2026.</p>
+    </div>
+
+    <!-- Premiación photo -->
+    <div class="premiacion-photo-wrap" data-reveal
+         data-lightbox="img/PT1.jpeg" style="cursor:pointer;">
+      <img src="img/PT1.jpeg" alt="Exhibición de obras durante la premiación" loading="lazy" />
+    </div>
+
+    <!-- Award cards -->
+    <div class="awards-grid">
+      <div class="award-card" data-reveal>
+        <div class="award-emoji">🏆</div>
+        <h3>Mejor Presentación de Danza</h3>
+        <div class="award-winner"><span data-i18n="premWinner">Ganador por anunciar</span></div>
+      </div>
+      <div class="award-card" data-reveal>
+        <div class="award-emoji">📖</div>
+        <h3>Mejor Obra Literaria</h3>
+        <div class="award-winner"><span data-i18n="premWinner">Ganador por anunciar</span></div>
+      </div>
+      <div class="award-card" data-reveal>
+        <div class="award-emoji">📸</div>
+        <h3>Mejor Fotografía</h3>
+        <div class="award-winner"><span data-i18n="premWinner">Ganador por anunciar</span></div>
+      </div>
+      <div class="award-card" data-reveal>
+        <div class="award-emoji">🎨</div>
+        <h3>Mejor Pintura</h3>
+        <div class="award-winner"><span data-i18n="premWinner">Ganador por anunciar</span></div>
+      </div>
+      <div class="award-card" data-reveal>
+        <div class="award-emoji">🎵</div>
+        <h3>Mejor Interpretación Musical</h3>
+        <div class="award-winner"><span data-i18n="premWinner">Ganador por anunciar</span></div>
+      </div>
+      <div class="award-card" data-reveal>
+        <div class="award-emoji">✏️</div>
+        <h3>Mejor Dibujo</h3>
+        <div class="award-winner"><span data-i18n="premWinner">Ganador por anunciar</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     GALERÍA GENERAL
+     ============================================================ -->
+<section id="galeria">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <p class="eyebrow" data-i18n="galEyebrow">Memorias</p>
+      <h2 data-i18n="galTitle">Galería General</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="gallery-grid" data-reveal>
+      <div class="gallery-item" data-lightbox="img/AP1.jpeg">
+        <img src="img/AP1.jpeg" alt="Apertura - vista del auditorio" loading="lazy" />
+        <div class="gallery-overlay"><span>Apertura</span></div>
+      </div>
+      <div class="gallery-item" data-lightbox="img/AP2.jpeg">
+        <img src="img/AP2.jpeg" alt="Apertura - presentación inicial" loading="lazy" />
+        <div class="gallery-overlay"><span>Apertura</span></div>
+      </div>
+      <div class="gallery-item" data-lightbox="img/LT1.jpeg">
+        <img src="img/LT1.jpeg" alt="Literatura - presentación" loading="lazy" />
+        <div class="gallery-overlay"><span>Literatura</span></div>
+      </div>
+      <div class="gallery-item" data-lightbox="img/LT2.jpeg">
+        <img src="img/LT2.jpeg" alt="Literatura - exhibición de obras" loading="lazy" />
+        <div class="gallery-overlay"><span>Literatura</span></div>
+      </div>
+      <div class="gallery-item" data-lightbox="img/PT1.jpeg">
+        <img src="img/PT1.jpeg" alt="Pintura - exhibición de arte visual" loading="lazy" />
+        <div class="gallery-overlay"><span>Pintura</span></div>
+      </div>
+      <div class="gallery-item" data-lightbox="img/MS1.jpeg">
+        <img src="img/MS1.jpeg" alt="Música - presentación musical" loading="lazy" />
+        <div class="gallery-overlay"><span>Música</span></div>
+      </div>
+      <div class="gallery-item" data-lightbox="img/MS2.jpeg">
+        <img src="img/MS2.jpeg" alt="Música - interpretación en escena" loading="lazy" />
+        <div class="gallery-overlay"><span>Música</span></div>
+      </div>
+      <div class="gallery-item" data-lightbox="img/DJ1.jpeg">
+        <img src="img/DJ1.jpeg" alt="Dibujos expuestos" loading="lazy" />
+        <div class="gallery-overlay"><span>Dibujo</span></div>
+      </div>
+      <!-- Videos in gallery -->
+      <div class="gallery-item" data-lightbox="img/DZ1.mp4" data-type="video">
+        <video src="img/DZ1.mp4" muted loop playsinline poster="img/DZ1_poster.jpg"
+               onmouseenter="this.play()" onmouseleave="this.pause();this.currentTime=0;"></video>
+        <div class="gallery-overlay"><span>Danza 1</span></div>
+      </div>
+      <div class="gallery-item" data-lightbox="img/DZ2.mp4" data-type="video">
+        <video src="img/DZ2.mp4" muted loop playsinline poster="img/DZ2_poster.jpg"
+               onmouseenter="this.play()" onmouseleave="this.pause();this.currentTime=0;"></video>
+        <div class="gallery-overlay"><span>Danza 2</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+  <div class="footer-logo">Batalla de Talentos 2026</div>
+  <div class="footer-inst" data-i18n="footerInst">Institución Educativa</div>
+  <div class="footer-divider"></div>
+  <p class="footer-quote" data-i18n="footerQuote">"El talento florece cuando encuentra un escenario para brillar."</p>
+  <div class="footer-links">
+    <a href="#hero"       data-i18n="navInicio">Inicio</a>
+    <a href="#apertura"   data-i18n="navApertura">Apertura</a>
+    <a href="#danza"      data-i18n="navDanza">Danza</a>
+    <a href="#literatura" data-i18n="navLiteratura">Literatura</a>
+    <a href="#pintura"    data-i18n="navPintura">Pintura</a>
+    <a href="#musica"     data-i18n="navMusica">Música</a>
+    <a href="#dibujo"     data-i18n="navDibujo">Dibujo</a>
+    <a href="#premiacion" data-i18n="navPremiacion">Premiación</a>
+    <a href="#galeria"    data-i18n="navGaleria">Galería</a>
+    <a href="glossary.html" data-i18n="navGlosario">Glosario</a>
+  </div>
+  <p class="footer-copy" data-i18n="footerRights">© 2026 Todos los derechos reservados</p>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">✕</button>
+  <div class="lightbox-content" id="lightboxContent"></div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
